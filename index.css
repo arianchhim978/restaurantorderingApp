@@ -4,7 +4,7 @@ body {
 
 #a img {
     height: auto;
-    width: 130%; 
+    width:100%; 
 }
 
 #container, h1 {
@@ -25,7 +25,7 @@ body {
     margin-left: auto;
     position: absolute;
     height: 120px;
-    margin-right:100px;
+   
     margin-top:100px;
     right: 0; 
 }
@@ -41,8 +41,9 @@ body {
 #line {
     margin-top: 20px;
     border: solid grey 1px;
-    width: 100%;
-    margin-left: 2px;
+    min-width: 20%;
+    font-weight: 100s;
+   
 }
 
 .text {
@@ -54,6 +55,7 @@ body {
 
 #container {
     align-items: center;
+    text-align: start;
   margin-left:20px;
 }
 
@@ -68,9 +70,3 @@ body {
     margin-left: 50px;
 }
 
-@media(max-width: 600px) {
-    #a img {
-        height: auto;
-        width: 100%;
-     }
-}
