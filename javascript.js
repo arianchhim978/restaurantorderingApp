@@ -25,6 +25,10 @@ let b = document.getElementById("container")
 let d = document.getElementById("#order")
 let e = document.getElementById("#button")
 
+
+
+ 
+
 function a (){
    for (let i = 0; i< menuArray.length;i++){
     const menuItem = menuArray[i];
