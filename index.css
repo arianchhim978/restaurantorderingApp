@@ -2,8 +2,12 @@ body {
     margin: 0;
 } 
 #a img{
-    height:400px;
+    height:auto;
+    width:100% ;
  }
 @media(max-width:600px){
-   
+    #a img{
+        height:auto;
+        width:100% ;
+     }
 }
