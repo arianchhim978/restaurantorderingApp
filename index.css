@@ -26,20 +26,21 @@ body {
     position: absolute;
     height: 120px;
     margin-top: 100px;
-    right: 100%; 
+    right: -200; 
 }
 
 #line2 {
     border: solid grey 1px;
-    width: 100%;
-    margin-left: 20px;
+    width: 120%;
+    margin-left: 30px;
     margin-right: auto;
+
 }
 
 #line {
     margin-top: 20px;
     border: solid grey 1px;
-    width: 1000px;
+    width: 150%;
     margin-left: 2px;
 }
 
@@ -52,7 +53,7 @@ body {
 
 #container {
     align-items: center;
-    margin-left: 100px;
+  margin-left:20px;
 }
 
 .price {
